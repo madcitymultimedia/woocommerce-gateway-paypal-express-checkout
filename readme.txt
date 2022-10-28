@@ -2,15 +2,17 @@
 Contributors: woocommerce, automattic, woothemes, akeda, dwainm, royho, allendav, slash1andy, woosteve, spraveenitpro, mikedmoore, fernashes, shellbeezy, danieldudzic, mikaey, fullysupportedphil, dsmithweb, corsonr, bor0, zandyring, pauldechov, robobot3000, jorgeatorres, mattdallan, menakas, chickenn00dle, jamesgallan, achyuthajoy, codestor
 Tags: ecommerce, e-commerce, commerce, woothemes, wordpress ecommerce, store, sales, sell, shop, shopping, cart, checkout, configurable, paypal
 Requires at least: 4.4
-Tested up to: 5.7
+Tested up to: 5.8
 Requires PHP: 5.5
-Stable tag: 2.1.2
+Stable tag: 2.1.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Accept PayPal, Credit Cards and Debit Cards on your WooCommerce store.
 
 == Description ==
+
+⚠️ **Support for PayPal Checkout will discontinue from *1 Mar 2022* and updates to the plugin have stopped as of *1 Sept 2021*. We recommend [switching to PayPal Payments](https://docs.woocommerce.com/document/woocommerce-paypal-payments/paypal-payments-upgrade-guide/).**
 
 This is a PayPal Checkout Payment Gateway for WooCommerce.
 
@@ -101,6 +103,10 @@ Please use this to inform us about bugs, or make contributions via PRs.
 9. Initiate checkout from mini-cart.
 
 == Changelog ==
+
+= 2.1.3 - 2021-09-16 =
+* Tweak - Remove broken URL from plugin headers. PR#887
+* Tweak - Update notice on plugins page about support and EOL. PR#886
 
 = 2.1.2 - 2021-06-28 =
 * Fix - Prevent fatal error when a line item isn't a WC_Product instance. PR#872
